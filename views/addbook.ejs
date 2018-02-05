@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .container{
+        width: 300px;
+        margin: 10px auto;
+    }
+    h3{
+        margin-left:70px; 
+    }
+    .submit{
+        margin-left:100px; 
+    } 
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="/doadd" method="get">
+        <h3>添加书籍</h3>
+        <p>
+            书名：
+            <input type="text" name="name">
+        </p>
+        <p>
+            作者：
+            <input type="text" name="author">
+        </p>
+        <p>
+            价格：
+            <input type="number" name="price">
+        </p>
+        <!-- <p>
+            作者：
+            <input type="text" name="author">
+        </p> -->
+        <input class="submit" type="submit" value="提交">
+    </form>
+</div>
+</body>
+</html>
